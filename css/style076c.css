@@ -59,16 +59,25 @@
     padding: 5px 0
 }
 
-.navbar .box-svg {
-    width: 170px
-}
+/*.navbar .box-svg {
+    width: 70px
+}*/
 
 .navbar .box-svg .visiplus {
     fill: #103144
 }
 
 .navbar .box-svg .academy {
-    fill: #fb4d41
+    fill: #b20808
+}
+
+.navbar .title-nav {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.navbar .title-nav strong {
+    color: #b20808;
 }
 
 .navbar .navbar-nav .fa-search {
@@ -102,7 +111,7 @@
 .navbar .navbar-nav a:hover,
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .search-open:hover {
-    color: #fb4d41
+    color: #b20808
 }
 
 .navbar .navbar-nav img.logo-academy {
@@ -110,7 +119,7 @@
 }
 
 .navbar .navbar-nav .connexion {
-    color: #fb4d41;
+    color: #b20808;
     padding-right: 0
 }
 
@@ -133,7 +142,7 @@
 .navbar-toggler a:hover,
 .navbar-toggler .nav-link:hover,
 .navbar-toggler .search-open:hover {
-    color: #fb4d41
+    color: #b20808
 }
 
 .search-inline {
@@ -167,7 +176,7 @@
     cursor: pointer;
     width: 80px;
     height: 100%;
-    background: #fb4d41;
+    background: #b20808;
     color: #fff
 }
 
@@ -234,7 +243,7 @@
 h1,
 h2,
 h3 {
-    color: #fb4d41;
+    color: #b20808;
     font-size: 45px;
     font-family: 'MoskBold700', sans-serif
 }
@@ -278,14 +287,14 @@ strong {
 
 .btn-transparent-red {
     background: transparent;
-    border: 2px solid #fb4d41;
-    color: #fb4d41
+    border: 2px solid #b20808;
+    color: #b20808
 }
 
 .btn-transparent-red:hover {
     background: #fbfbfb;
-    color: #fb372c;
-    border: 2px solid #fb372c
+    color: #b20808;
+    border: 2px solid #b20808
 }
 
 .btn-transparent-white {
@@ -523,7 +532,7 @@ strong {
 }
 
 .tag-ressources-humaines {
-    background: #fb4d41
+    background: #b20808
 }
 
 .tag-extra-skills {
@@ -623,7 +632,7 @@ strong {
 
 .section-4 {
     min-height: 370px;
-    background: #fb4d41
+    background: #b20808
 }
 
 .section-4 .forme-back {
@@ -1238,7 +1247,7 @@ strong {
 
 footer {
     background: #103144;
-    min-height: 525px;
+    min-height: 135px;
     color: #fff
 }
 
@@ -1367,7 +1376,7 @@ footer .footer-copyright-link .no-barre::after {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #fb4d41;
+    background-color: #b20808;
     color: white;
     cursor: pointer;
     padding: 10px 15px;
@@ -1791,7 +1800,8 @@ footer .footer-copyright-link .no-barre::after {
 
 .section-formations {
     padding-bottom: 30px;
-    min-height: 300px
+    min-height: 300px;
+    margin-top: 30px;
 }
 
 .section-formations .box-svg {
@@ -11878,12 +11888,13 @@ img.tag-img-ss {
 }
 
 .section-formations-courtes p {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 130%;
     padding: 10px 0 10px 0
 }
 
 .section-categories {
+    padding-top: 40px;
     padding-bottom: 40px
 }
 
