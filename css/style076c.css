@@ -1993,7 +1993,7 @@ footer .footer-copyright-link .no-barre::after {
     font-size: 16px;
     line-height: 18px;
     max-width: 215px;
-    min-height: 56px
+    /*min-height: 56px*/
 }
 
 .cycles-longs .bloc .s-txt {
@@ -13245,8 +13245,8 @@ img.tag-img-ss {
 }
 
 .section-categories .tag-10 {
-    background: #52CBFC;
-    box-shadow: 10px 0 0 #52CBFC, -5px 0 0 #52CBFC, 10px 5px 0px #52CBFC, -5px 5px #52CBFC
+    background: #B20808;
+    box-shadow: 10px 0 0 #B20808, -5px 0 0 #B20808, 10px 5px 0px #B20808, -5px 5px #B20808
 }
 
 .section-categories .tag-11 {
