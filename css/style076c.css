@@ -1241,132 +1241,70 @@ strong {
     margin-bottom: 10px
 }
 
-.footer-documentation {
-    padding-bottom: 120px
-}
-
-footer {
-    background: #103144;
-    min-height: 135px;
-    color: #fff
-}
-
-footer .logo-footer {
-    float: left;
-    padding: 55px 35px 0 0
-}
-
-footer .vertical-line {
-    margin: 35px 0 0 0;
-    width: 2px;
-    height: 67px;
-    background-color: #fff;
-    float: left
-}
-
-footer h5 {
-    padding: 42px 0;
-    font-size: 24px;
-    font-family: 'MoskBold700', sans-serif
-}
-
-footer .adresse {
-    margin-bottom: 30px;
-    font-size: 16px;
-    font-family: 'MoskMedium500', sans-serif
-}
-
-footer .adresse span {
-    font-family: 'MoskBold700', sans-serif;
-    font-size: 18px
-}
-
-footer img.img-adresse {
-    min-width: 60px
-}
-
-footer a {
-    color: #fff;
-    transition: 0.5s
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: #74e5e1
-}
-
-footer h6 {
-    font-size: 14px;
-    font-family: 'MoskMedium500', sans-serif
-}
-
-footer .h6 {
-    font-size: 16px;
-    font-family: 'MoskBold700', sans-serif
-}
-
-footer .h6-format,
-footer .h6-thematique {
-    padding-top: 25px
-}
-
-footer .footer-link {
-    font-size: 18px;
-    font-family: 'MoskBold700', sans-serif
-}
-
-footer .footer-link li {
-    padding: 2px 0
-}
-
-footer hr {
-    margin: 80px 0 20px 0;
+/* Footer CSS */
+.footer-nav-area {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-color: #ee4a4a;
     width: 100%;
-    height: 1px;
-    background-color: #fff;
-    border: none
+    height: 58px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    -webkit-box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
 }
 
-footer p {
+.suha-footer-nav ul {
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+.suha-footer-nav ul li {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0;
+    position: relative;
+    z-index: 1;
+    list-style: none;
+    text-decoration: none;
+}
+
+.suha-footer-nav ul li a {
+    position: relative;
+    display: block;
     font-size: 12px;
-    font-family: 'MoskMedium500', sans-serif;
-    margin-bottom: 10px
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1;
+    color: #747794;
+    z-index: 1;
+    font-weight: 500;
 }
 
-footer ul {
-    list-style-type: none;
-    padding: 0
+.suha-footer-nav ul li a i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 4px;
 }
 
-footer .footer-copyright-link {
-    margin: 0 0 25px 0;
-    list-style-type: none;
-    padding: 0
+.suha-footer-nav ul li a:hover,
+.suha-footer-nav ul li a:focus {
+    color: #100DD1;
 }
 
-footer .footer-copyright-link li {
-    display: inline-block
+.suha-footer-nav ul li a img {
+    max-height: 1.5rem;
+    margin: 0 auto .25rem;
+    display: block;
 }
 
-footer .footer-copyright-link li a {
-    font-size: 14px;
-    font-family: 'MoskMedium500', sans-serif
+.suha-footer-nav ul li.active a {
+    color: #100DD1;
 }
-
-footer .footer-copyright-link li::after {
-    margin: 0 5px;
-    content: "|"
-}
-
-footer .footer-copyright-link .no-barre::after {
-    content: ""
-}
-
-@media (max-width: 768px) {
-    footer img.img-adresse {
-        min-width: 38px
-    }
-}
+  
 
 .totop {
     display: none;
@@ -1899,14 +1837,14 @@ footer .footer-copyright-link .no-barre::after {
 
 .section-formations .bloc .tag {
     margin-left: 10px;
-    font-size: 7px;
+    font-size: 10px;
     color: #103144;
     font-family: 'MoskBold700', sans-serif;
     text-transform: uppercase;
     display: inline-block;
     padding: 4px;
     margin-top: 15px;
-    float: left;
+    /*float: left;*/
     border-radius: 8px
 }
 
@@ -11893,10 +11831,10 @@ img.tag-img-ss {
     padding: 10px 0 10px 0
 }
 
-.section-categories {
+/*.section-categories {
     padding-top: 40px;
     padding-bottom: 40px
-}
+}*/
 
 .section-categories .tag-p {
     padding-top: 25px;
@@ -12904,8 +12842,8 @@ img.tag-img-ss {
 }
 
 .tag-10 {
-    background: #52CBFC;
-    box-shadow: 0.5em 0 0 #52CBFC, -0.5em 0 0 #52CBFC
+    background: #B20808;
+    box-shadow: 0.5em 0 0 #B20808, -0.5em 0 0 #B20808
 }
 
 .tag-11 {
@@ -13190,7 +13128,6 @@ img.tag-img-ss {
 }
 
 .section-categories .tag-v {
-    padding: 5px 0px 0px 5px;
     line-height: 30px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -13246,12 +13183,12 @@ img.tag-img-ss {
 
 .section-categories .tag-10 {
     background: #B20808;
-    box-shadow: 10px 0 0 #B20808, -5px 0 0 #B20808, 10px 5px 0px #B20808, -5px 5px #B20808
+    /*box-shadow: 10px 0 0 #B20808, -5px 0 0 #B20808, 10px 5px 0px #B20808, -5px 5px #B20808*/
 }
 
 .section-categories .tag-11 {
     background: #557fa4;
-    box-shadow: 10px 0 0 #557fa4, -5px 0 0 #557fa4, 10px 5px 0px #557fa4, -5px 5px #557fa4
+    /*box-shadow: 10px 0 0 #557fa4, -5px 0 0 #557fa4, 10px 5px 0px #557fa4, -5px 5px #557fa4*/
 }
 
 .section-categories .tag-p {
