@@ -1245,16 +1245,14 @@ strong {
 .footer-nav-area {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    background-color: #ee4a4a;
+    background-color: #B20808;
     width: 100%;
-    height: 58px;
+    height: 40px;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    -webkit-box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
-    box-shadow: 0 0 8px rgba(15, 15, 15, 0.15);
 }
 
 .suha-footer-nav ul {
@@ -1279,20 +1277,20 @@ strong {
     text-align: center;
     text-transform: capitalize;
     line-height: 1;
-    color: #747794;
+    color: #9480a4;
     z-index: 1;
     font-weight: 500;
 }
 
 .suha-footer-nav ul li a i {
     display: block;
-    font-size: 24px;
-    margin-bottom: 4px;
+    font-size: 18px;
+
 }
 
 .suha-footer-nav ul li a:hover,
 .suha-footer-nav ul li a:focus {
-    color: #100DD1;
+    color: #103144;
 }
 
 .suha-footer-nav ul li a img {
@@ -1302,7 +1300,7 @@ strong {
 }
 
 .suha-footer-nav ul li.active a {
-    color: #100DD1;
+    color: #103144;
 }
   
 
@@ -1949,13 +1947,8 @@ strong {
 }
 
 .produit {
-    background-image: url("../images/categorie/bg-1.jpg");
-    background-repeat: no-repeat;
-    min-height: 293px;
-    background-position: center;
+    /*min-height: 293px;*/
     background-color: #103144;
-    margin-bottom: 0;
-    background-size: cover
 }
 
 .produit .img-produit-header {
@@ -6429,10 +6422,7 @@ strong {
     }
 
     .produit {
-        background: no-repeat url("../images/categorie/bg-1.jpg");
-        background-position: center;
         background-color: #103144;
-        margin-bottom: 0
     }
 
     .produit h1 {
@@ -10896,12 +10886,7 @@ img.tag-img-ss {
 }
 
 .section-std {
-    background-image: url("../images/categorie/bg-1.jpg");
     background-color: #103144;
-    display: block;
-    max-width: 100%;
-    background-position: center;
-    margin: auto
 }
 
 .section-std h1 {

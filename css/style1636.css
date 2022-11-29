@@ -10948,12 +10948,7 @@ img.tag-img-ss {
 }
 
 .section-std {
-    background-image: url("../images/categorie/bg-1.jpg");
     background-color: #103144;
-    display: block;
-    max-width: 100%;
-    background-position: center;
-    margin: auto
 }
 
 .section-std h1 {
