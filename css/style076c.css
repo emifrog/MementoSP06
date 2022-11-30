@@ -72,7 +72,7 @@
 }
 
 .navbar .title-nav {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -143,6 +143,11 @@
 .navbar-toggler .nav-link:hover,
 .navbar-toggler .search-open:hover {
     color: #b20808
+}
+
+.navbar-brand i {
+    color: #112b3a;
+    font-size: 28px;
 }
 
 .search-inline {
@@ -1737,7 +1742,7 @@ strong {
 .section-formations {
     padding-bottom: 30px;
     min-height: 300px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .section-formations .box-svg {
@@ -1747,11 +1752,19 @@ strong {
     margin: -2px 5px 0 0px
 }
 
+.section-formations h2 {
+    color: #103144;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'MoskBold700', sans-serif;
+    margin: 15px 0 15px 0;
+}
+
 .section-formations h3 {
     color: #103144;
     font-size: 24px;
     font-family: 'MoskBold700', sans-serif;
-    margin: 15px 0 15px 0
+    margin: 10px 0 15px 0
 }
 
 .section-formations .minh {
@@ -1760,7 +1773,7 @@ strong {
 
 .section-formations .bloc {
     width: 100%;
-    min-height: 155px;
+    min-height: 130px;
     display: block;
     float: left;
     border-radius: 10px;
@@ -9097,7 +9110,8 @@ strong {
         width: 100%;
         padding-right: 20px;
         font-size: 22px;
-        line-height: 110%
+        line-height: 110%;
+        margin-top: 8px;
     }
 
     .img-promote {
