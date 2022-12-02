@@ -10,26 +10,27 @@
     <meta name="description" content="Cette application est à destination de tous les Sapeurs Pompiers. Elle permet d'avoir
         sur soi une fiche des différentes manoeuvres SP." />
 
-    <meta property="og:image" content="./images/LIN-meta-cata.jpg" />
-
-    <link rel="canonical" href="index.html" />
-    <link rel="shortcut icon" href="./images/favicon.ico" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/bootstrap-select.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style076c.css">
+    <!-- Image page reseau sociaux -->
+    <meta property="og:image" content="images/LIN-meta-cata.jpg" />
 
     <script src="https://kit.fontawesome.com/8d747dca8a.js" crossorigin="anonymous"></script>
 
+    <link rel="canonical" href="index.html" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css"> 
+    <link rel="stylesheet" type="text/css" href="css/style076c.css">  
+
 </head>
-
 <body>
-
     <!-- START HEAD LOGO AND MENU -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <!--LOGO -->
-            <a class="navbar-brand" onclick="history.back()">
-                <i class="fa fas fa-chevron-circle-left"></i>
+            <a class="navbar-brand" href="index.html">
+                <div class="box-svg">
+                    <img src="images/logo.svg" alt="logo">
+                </div>
             </a>
 
             <span class="title-nav"><strong>M</strong>emento<strong class="title-nav">SP</strong></span>
@@ -39,7 +40,6 @@
                 aria-label="Toggle navigation">
                 <span style="display: inline-block" class="navbar-toggler-icon"></span>
             </button>
-
 
             <div class="collapse navbar-collapse" id="navbarTogglergo">
                 <div style="width:60%;display:none;" id="wrapper-search" class="w-30 wrapper-all-search ">
@@ -91,190 +91,13 @@
         </nav>
     </div>
 
-
-    <!--START FORMULAIRE RECHERCHE -->
-    <div class="searching">
-        <div class="search-inline">
-            <form action="https://academy.visiplus.com/recherche" method="post">
-                <input autofocus id="search" type="text" class="form-control" placeholder="Recherche..." name="keyword">
-                <button type="submit">
-                    <i class="fa fa-search"></i>
-                </button>
-                <a href="javascript:void(0)" class="search-close">
-                    <i class="fa fa-times"></i>
-                </a>
-            </form>
-        </div>
-    </div>
-    <!--END FORMULAIRE RECHERCHE -->
-    <!--END HEAD LOGO AND MENU -->
-
-    <!--SLOT CONTENT  -->
-
-    <!--START PRÈS DE 150 FORMATIONS SECTION 1 -->
-
-    <section class="section-std section-formations-courtes section-categories produit">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-xl-7">
-                    <div class="row">
-                        <div style="margin: auto;">
-                            <div class="tag-p">
-                                <h1 class="tag-v tag-10" style="font-size: 1.5em;">
-                                    Incendie</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="desc">
-                        <p>La lutte contre les incendies est la mission originelle du Sapeur-Pompier.
-                            Le nombre d’incendies en France est de 282 800 en 2021. Les incendies représentent 11 % des interventions annuelles.
-                        </p>
-                    </div>
-                </div>                
-            </div>
-        </div>
-    </section>
-
-    <!--END PRÈS DE 150 FORMATIONS SECTION 1 -->
-
-    <div class="container">
-
-        <!--START SECTION TOUTES LES FORMATIONS COURTES -->
-        <section class="section-formations formations-courtes" id="formation">
-            <div class="container">
-
-                <div class="row grid">
-
-                    <div class="col-md-4 col-xl-3 element-item formation-courte  format-0 cat-master-10 sous-theme-5">
-                        <a href="formation-creation-site-web.html">
-                            <div class="bloc">
-                                <div class="row minh">
-                                    <div class="col-3 col-md-4 col-lg-3 col-xl-3">
-                                        <img src="images/small_hex/incendie.png"
-                                            alt="incendie" class="tag-img"/>
-                                    </div>
-                                    <div class="col-9 col-md-8 col-lg-9 col-xl-9">
-                                        <div class="tag tag-10">Formation / Incendie</div>
-                                        <div class="txt"
-                                            data-search="M.G.O ">
-                                            M.G.O
-                                           <p class="bloc-formations">Marche Général des Opérations</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-xl-3 element-item formation-courte  format-0 cat-master-10 sous-theme-5">
-                        <a href="./incendie/feuxbatiments.html">
-                            <div class="bloc">
-                                <div class="row minh">
-                                    <div class="col-3 col-md-4 col-lg-3 col-xl-3">
-                                        <img src="images/small_hex/incendie.png"
-                                            alt="Création de site web avec HTML5 et CSS3" class="tag-img"/>
-                                    </div>
-                                    <div class="col-9 col-md-8 col-lg-9 col-xl-9">
-                                        <div class="tag tag-10">Formation / Chef d'Agrès</div>
-                                        <div class="txt"
-                                            data-search="Création de site web avec HTML5 et CSS3  Creation de site web avec HTML5 et CSS3 ">
-                                            Fiches Reflexes "Bâtiments"</div>
-                                    </div>
-                                </div>
-                                <hr>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-xl-3 element-item formation-courte  format-0 cat-master-10 sous-theme-5">
-                        <a href="formation-creation-site-web.html">
-                            <div class="bloc">
-                                <div class="row minh">
-                                    <div class="col-3 col-md-4 col-lg-3 col-xl-3">
-                                        <img src="images/small_hex/incendie.png"
-                                            alt="Création de site web avec HTML5 et CSS3" class="tag-img"/>
-                                    </div>
-                                    <div class="col-9 col-md-8 col-lg-9 col-xl-9">
-                                        <div class="tag tag-10">Développement Web / Informatique</div>
-                                        <div class="txt"
-                                            data-search="Création de site web avec HTML5 et CSS3  Creation de site web avec HTML5 et CSS3 ">
-                                            Fiches Reflexes "Rural"</div>
-                                    </div>
-                                </div>
-                                <hr>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-xl-3 element-item formation-courte  format-0 cat-master-10 sous-theme-5">
-                        <a href="formation-creation-site-web.html">
-                            <div class="bloc">
-                                <div class="row minh">
-                                    <div class="col-3 col-md-4 col-lg-3 col-xl-3">
-                                        <img src="images/small_hex/incendie.png"
-                                            alt="Création de site web avec HTML5 et CSS3" class="tag-img"/>
-                                    </div>
-                                    <div class="col-9 col-md-8 col-lg-9 col-xl-9">
-                                        <div class="tag tag-10">Développement Web / Informatique</div>
-                                        <div class="txt"
-                                            data-search="Création de site web avec HTML5 et CSS3  Creation de site web avec HTML5 et CSS3 ">
-                                            Fiches Reflexes "Feux Spéciaux"</div>
-                                    </div>
-                                </div>
-                                <hr>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-xl-3 element-item formation-courte  format-0 cat-master-10 sous-theme-5">
-                        <a href="formation-creation-site-web.html">
-                            <div class="bloc">
-                                <div class="row minh">
-                                    <div class="col-3 col-md-4 col-lg-3 col-xl-3">
-                                        <img src="images/small_hex/incendie.png"
-                                            alt="Création de site web avec HTML5 et CSS3" class="tag-img"/>
-                                    </div>
-                                    <div class="col-9 col-md-8 col-lg-9 col-xl-9">
-                                        <div class="tag tag-10">Développement Web / Informatique</div>
-                                        <div class="txt"
-                                            data-search="Création de site web avec HTML5 et CSS3  Creation de site web avec HTML5 et CSS3 ">
-                                            Fiches Reflexes "Véhicules"</div>
-                                    </div>
-                                </div>
-                                <hr>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4 col-xl-3 element-item formation-courte  format-0 cat-master-10 sous-theme-5">
-                        <a href="formation-creation-site-web.html">
-                            <div class="bloc">
-                                <div class="row minh">
-                                    <div class="col-3 col-md-4 col-lg-3 col-xl-3">
-                                        <img src="images/small_hex/incendie.png"
-                                            alt="Création de site web avec HTML5 et CSS3" class="tag-img"/>
-                                    </div>
-                                    <div class="col-9 col-md-8 col-lg-9 col-xl-9">
-                                        <div class="tag tag-10">Développement Web / Informatique</div>
-                                        <div class="txt"
-                                            data-search="Création de site web avec HTML5 et CSS3  Creation de site web avec HTML5 et CSS3 ">
-                                            Fiches Reflexes "Autres"</div>
-                                    </div>
-                                </div>
-                                <hr>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--END SECTION TOUTES LES FORMATIONS COURTES -->
-    </div>
-
     <!--START FOOTER -->
     <div class="footer-nav-area" id="footerNav">
         <div class="container h-100 px-0">
           <div class="suha-footer-nav h-100">
             <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
               <li class="active"><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-              <li><a href="about.html"><i class="fas fa-info-circle"></i>A propos</a></li>
+              <li><a href="#"><i class="fa fa-user-circle"></i>A propos</a></li>
               <li><a href="#"><i class="fa fa-search"></i>Search</a></li>
             </ul>
           </div>
@@ -286,17 +109,17 @@
     <div class="totop" title="Retour en haut"><i class="fas fa-chevron-up"></i></div>
 
     
-    <script src="./js/jquery-1.12.4.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/totop.min.js"></script>
-    <script src="./js/z_bootstrap-formhelpers.js"></script>
-    <script src="./js/z_bootstrap-formhelpers-phone.js"></script>
-    <script src="./js/isotop.min.js"></script>
-    <script src="./js/imagesloaded.min.js"></script>
-    <script src="./js/bootstrap-select.min.js"></script>
-    <script src="./js/filterizr.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/totop.min.js"></script>
+    <script src="js/z_bootstrap-formhelpers.js"></script>
+    <script src="js/z_bootstrap-formhelpers-phone.js"></script>
+    <script src="js/isotop.min.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/filterizr.min.js"></script>
+    <script src="js/main.js"></script>
 
 
     <script charset="utf-8">
@@ -508,5 +331,4 @@
         });
     </script>
 </body>
-
 </html>
