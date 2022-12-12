@@ -1772,6 +1772,15 @@ strong {
     margin: 10px 0 15px 0
 }
 
+.section-formations .item-list {
+    color: #103144;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'MoskBold700', sans-serif;
+    margin: 10px 0 15px 0;
+    border-radius: 8px;
+}
+
 .section-formations .minh {
     min-height: 100px
 }
