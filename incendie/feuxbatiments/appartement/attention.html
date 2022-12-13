@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memento Sapeurs-Pompiers</title>
+    <meta name="description" content="Cette application est à destination de tous les Sapeurs Pompiers. Elle permet d'avoir
+        sur soi une fiche des différentes manoeuvres SP." />
+
+    <meta property="og:image" content="../../images/LIN-meta-cata.jpg" />
+
+    <link rel="canonical" href="index.html" />
+    <link rel="shortcut icon" href="../../../../../images/favicon.ico" />
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/style076c.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- START HEAD LOGO AND MENU -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!--LOGO -->
+            <a class="navbar-brand" onclick="history.back()">
+                <i class="fa fas fa-chevron-circle-left"></i>
+            </a>
+
+            <span class="title-nav"><strong>M</strong>emento<strong class="title-nav">SP</strong></span>
+
+            <button id="button-menu" class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarTogglergo" aria-controls="navbarTogglergo" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span style="display: inline-block" class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglergo">
+                <div style="width:60%;display:none;" id="wrapper-search" class="w-30 wrapper-all-search ">
+                    <div class="col-auto search-icone text-right"><i class="fa fa-search"></i></div>
+                    <form class="col-sm-9 col-10 search-wrapper" action="https://academy.visiplus.com/recherche"
+                        method="post">
+                        <input placeholder="Rechercher" id="input-search" type="text" name="keyword"
+                            class="search-wrapper">
+                    </form>
+                    <div id="close-search" class="float-right text-right time-icone"><i
+                            class="fa fa-times"></i>
+                    </div>
+                </div>
+
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../../../index.html"><i
+                                class="fas fa-home"></i>Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formations-courtes.html">Formations courtes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cycles-formations.html">Cycles de formations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ressources.html">Ressources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="temoignages.html">Témoignages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../about.html"><i 
+                            class="fas fa-info-circle"></i> À propos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../../../contact.html"><i
+                                class="far fa-envelope"></i> Contact</a>
+                    </li>
+
+                    <!-- RECHERCHE JS -->
+                    <li class="d-none recherche d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                        <div id="open-search" class="">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--START FORMULAIRE RECHERCHE -->
+    <div class="searching">
+        <div class="search-inline">
+            <form action="https://academy.visiplus.com/recherche" method="post">
+                <input autofocus id="search" type="text" class="form-control" placeholder="Recherche..." name="keyword">
+                <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+                <a href="javascript:void(0)" class="search-close">
+                    <i class="fa fa-times"></i>
+                </a>
+            </form>
+        </div>
+    </div>
+    <!--END FORMULAIRE RECHERCHE -->
+    <!--END HEAD LOGO AND MENU -->
+
+    <!--SLOT CONTENT  -->
+
+    <!--START PRÈS DE 150 FORMATIONS SECTION 1 -->
+
+    <section class="section-std section-formations-courtes section-categories produit">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-xl-7">
+                    <div class="row">
+                        <div style="margin: auto;">
+                            <div class="tag-p">
+                                <h1 class="tag-v tag-10" style="font-size: 1.6em;">
+                                    Feu d'Appartement</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p></p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!--END PRÈS DE 150 FORMATIONS SECTION 1 -->
+
+    <div class="container">
+
+        <!--START SECTION TOUTES LES FORMATIONS COURTES -->
+        <section class="section-formations formations-courtes" id="formation">
+            <div class="container">
+                <h3 class="item-list tag-10">A retenir</h3>
+                <div class="row grid">
+                    <li class="content-section-list">
+                        Inventorier les habitants dans un lieu sûr "PRV" et reconnaître l'ensemble des appartements
+                    </li>
+                    <li class="content-section-list">
+                        Penser à la mairie pour d'éventuels relogements
+                    </li>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION TOUTES LES FORMATIONS COURTES -->
+    </div>
+
+    <!--START FOOTER -->
+    <div class="footer-nav-area" id="footerNav">
+        <div class="container h-100 px-0">
+          <div class="suha-footer-nav h-100">
+            <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
+              <li class="active"><a href="#"><i class="fas fa-exclamation-triangle"></i>Risques</a></li>
+              <li><a href="../appartement/strategie.html"><i class="fas fa-lightbulb"></i>Stratégie</a></li>
+              <li><a href="../appartement/acces.html"><i class="fas fa-universal-access"></i>Accès</a></li>
+              <li><a href="../appartement/actions.html"><i class="fas fa-fire-extinguisher"></i>Actions</a></li>
+              <li class="active"><a href="../appartement/attention.html"><i class="fas fa-exclamation-triangle"></i>Attention</a></li>
+              <li><a href="../appartement/interdit.html"><i class="fas fa-ban"></i>Interdit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!--END FOOTER -->
+
+    <!-- BACK TO TOP -->
+    <div class="totop" title="Retour en haut"><i class="fas fa-chevron-up"></i></div>
+
+    
+    <script src="../../../js/jquery-1.12.4.min.js"></script>
+    <script src="../../../js/popper.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/totop.min.js"></script>
+    <script src="../../../js/z_bootstrap-formhelpers.js"></script>
+    <script src="../../../js/z_bootstrap-formhelpers-phone.js"></script>
+    <script src="../../../js/isotop.min.js"></script>
+    <script src="../../../js/imagesloaded.min.js"></script>
+    <script src="../../../js/bootstrap-select.min.js"></script>
+    <script src="../../../js/filterizr.min.js"></script>
+    <script src="../../../js/main.js"></script>
+
+
+    <script charset="utf-8">
+        $(document).ready(function () {
+            var qsRegex;
+            var filterValue;
+            var filterValueClick;
+            var nbcycle;
+            var nbformations;
+            var ag1 = false;
+            var ag2 = false;
+
+            var $grid = $('.grid').imagesLoaded(function () {
+
+                $grid.isotope({
+                    itemSelector: '.element-item',
+                    layoutMode: 'fitRows',
+                    filter: function () {
+                        $("#cycle").show();
+                        $("#formation").show();
+                        var $this = $(this);
+                        var searchResult = qsRegex ? $this.find('.txt').attr("data-search")
+                            .match(qsRegex) : true;
+                        var selectResult = filterValue ? $this.is(filterValue) : true;
+                        var clickResult = filterValueClick ? $this.is(filterValueClick) :
+                            true;
+                        return searchResult && selectResult && clickResult;
+                    }
+                });
+                $('.tag-filtre').on('click', function () {
+                    filterValueClick = $(this).attr('data-filter');
+                    $('.tag-filtre').removeClass("tag-filtre-actif");
+                    $(this).addClass("tag-filtre-actif");
+                    $grid.isotope();
+                });
+
+                // use value of search field to filter
+                var $quicksearch = $(".quicksearch").keyup(
+                    debounce(function () {
+                        qsRegex = new RegExp($quicksearch.val(), "gi");
+                        $grid.isotope();
+                    })
+                );
+
+                // debounce so filtering doesn't happen every millisecond
+                function debounce(fn, threshold) {
+                    var timeout;
+                    threshold = threshold || 100;
+                    return function debounced() {
+                        clearTimeout(timeout);
+                        var args = arguments;
+                        var _this = this;
+
+                        function delayed() {
+                            fn.apply(_this, args);
+                        }
+                        timeout = setTimeout(delayed, threshold);
+                    };
+                }
+
+
+                $('form select').on('change', function () {
+
+                    let filter = $(".filters-select option:selected").val();
+                    filterValue = filter;
+
+                    var cpf = $(".filters-select-cpf option:selected").val()
+                    filterValue = cpf !== undefined ? filter + cpf : filter;
+
+                    var duree = $(".filters-select-duree option:selected").val()
+                    filterValue = duree !== undefined ? filterValue + duree : filter;
+
+                    $grid.isotope();
+                });
+
+            });
+
+            var $grid2 = $('.grid2').imagesLoaded(function () {
+
+                $grid2.isotope({
+                    itemSelector: '.element-item',
+                    layoutMode: 'fitRows',
+                    filter: function () {
+                        $("#cycle").show();
+                        $("#formation").show();
+                        var $this = $(this);
+                        var searchResult = qsRegex ? $this.find('.txt').attr("data-search")
+                            .match(qsRegex) : true;
+                        var selectResult = filterValue ? $this.is(filterValue) : true;
+                        var clickResult = filterValueClick ? $this.is(filterValueClick) :
+                            true;
+                        return searchResult && selectResult && clickResult;
+                    }
+                });
+                $('.tag-filtre').on('click', function () {
+                    filterValueClick = $(this).attr('data-filter');
+                    $('.tag-filtre').removeClass("tag-filtre-actif");
+                    $(this).addClass("tag-filtre-actif");
+                    $grid2.isotope();
+                });
+
+                // use value of search field to filter
+                var $quicksearch = $(".quicksearch").keyup(
+                    debounce(function () {
+                        qsRegex = new RegExp($quicksearch.val(), "gi");
+                        $grid2.isotope();
+                    })
+                );
+
+                // debounce so filtering doesn't happen every millisecond
+                function debounce(fn, threshold) {
+                    var timeout;
+                    threshold = threshold || 100;
+                    return function debounced() {
+                        clearTimeout(timeout);
+                        var args = arguments;
+                        var _this = this;
+
+                        function delayed() {
+                            fn.apply(_this, args);
+                        }
+                        timeout = setTimeout(delayed, threshold);
+                    };
+                }
+
+
+                $('form select').on('change', function () {
+
+                    let filter = $(".filters-select option:selected").val();
+                    filterValue = filter;
+
+                    var cpf = $(".filters-select-cpf option:selected").val()
+                    filterValue = cpf !== undefined ? filter + cpf : filter;
+
+                    var duree = $(".filters-select-duree option:selected").val()
+                    filterValue = duree !== undefined ? filterValue + duree : filter;
+
+                    $grid2.isotope();
+                });
+
+            });
+
+            $grid.on('arrangeComplete', function (event, filteredItems) {
+
+                $(".text-res-filtrage h4").remove();
+                res = filteredItems.length
+                txt_res = res > 1 ? 'résultats' : 'résultat';
+                $("#resfiltretxt").html("(" + res + " " + txt_res + ")");
+                nbformations = res;
+                if (ag1 && ag2) {
+                    displayRes();
+                }
+
+                ag1 = true;
+
+            });
+
+            $grid2.on('arrangeComplete', function (event, filteredItems) {
+
+                $(".text-res-filtrage h4").remove();
+                res = filteredItems.length
+                txt_res = res > 1 ? 'résultats' : 'résultat';
+                $("#resfiltretxtcycle").html("(" + res + " " + txt_res + ")");
+                nbcycle = res;
+                if (ag1 && ag2) {
+                    displayRes();
+                }
+                ag2 = true;
+            });
+
+            function displayRes() {
+                nbres = nbformations + nbcycle;
+                txt_nbres = nbres > 1 ? 'résultats' : 'résultat';
+                txt_cycle = nbcycle > 1 ? 'cycles de formations' : 'cycle de formation';
+                link_cycle = nbcycle == 0 ? "" : "<a href='#cycle'>Voir</a>";
+                txt_formation = nbformations > 1 ? 'formations courtes' : 'formation courte';
+                link_formation = nbformations == 0 ? "" : "<a href='#formation'>Voir</a>";
+                $(".resultatfiltragecm").show();
+                $(".resultatfiltragecm").html("<strong>Nous avons trouvé " + nbres + " " + txt_nbres +
+                    " selon vos filtres</strong><br />" + nbcycle + " " + txt_cycle + " " + link_cycle +
+                    "<br />" + nbformations + " " + txt_formation + " " + link_formation);
+                if (nbcycle == 0) {
+                    $("#cycle").hide();
+                }
+                if (nbformations == 0) {
+                    $("#formation").hide();
+                }
+                if (nbres == 0) {
+                    $(".bloc-pas-de-res").show();
+                } else {
+                    $(".bloc-pas-de-res").hide();
+                }
+            }
+
+            $("#show_filtre").click(function (e) {
+                event.preventDefault();
+                $(".filtre_actif").removeClass("d-none d-sm-block");
+                $(".filtre_actif").show();
+                $(".btn_filtre").removeClass("d-block d-sm-none");
+                $(".btn_filtre").hide();
+            });
+            $(".reinit-filter").click(function (e) {
+                e.preventDefault();
+                $(".quicksearch").val("");
+                $(".selectpicker").selectpicker('val', '*');
+                location.reload();
+            });
+
+        });
+    </script>
+</body>
+
+</html> 
