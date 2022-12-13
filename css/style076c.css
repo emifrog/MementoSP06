@@ -1776,7 +1776,7 @@ strong {
     color: #103144;
     font-size: 24px;
     text-align: center;
-    font-family: 'MoskBold700', sans-serif;
+    font-family: 'MoskBold600', sans-serif;
     margin: 10px 0 15px 0;
     border-radius: 8px;
 }
@@ -13674,6 +13674,15 @@ a.a-metier:hover {
 .content-section li {
     list-style-image: url("../images/icon-red-p.png");
     margin-left: 7px
+}
+
+.section-formations .content-section-list {
+    list-style-image: url("../images/icon-p-blue-check.png");
+    color: #103144;
+    /*font-family: 'MoskMedium600', sans-serif;*/
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 .contenu-de-la-formation .gsec,
