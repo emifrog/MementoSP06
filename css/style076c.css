@@ -1743,11 +1743,15 @@ strong {
     font-family: 'MoskMedium500', sans-serif;
     padding: 6px 20px
 }
+.row .grid{
+    margin-top: 30px;
+}
 
 .section-formations {
     padding-bottom: 30px;
     min-height: 300px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .section-formations .box-svg {
@@ -13673,7 +13677,8 @@ a.a-metier:hover {
 .contenu-de-la-formation li,
 .content-section li {
     list-style-image: url("../images/icon-red-p.png");
-    margin-left: 7px
+    margin-left: 7px;
+    margin-top: 10px;
 }
 
 .section-formations .content-section-list {
